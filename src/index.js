@@ -5,6 +5,10 @@ import { Provider } from "react-redux";
 import { store } from "./store/store";
 import App from './App';
 import { Home } from "./component/pages/Home";
+import {Error} from "./component/pages/Error";
+import {About} from "./component/pages/About";
+import {Portfolio} from "./component/pages/Portfolio";
+import {Contact} from "./component/pages/Contact"
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -15,9 +19,10 @@ root.render(
       <Routes>
         <Route path="/" element={<App/>}> 
           <Route path="/" element={<Home/>}/>
-          {/* <Route path="/login" element={<SignIn/>}/>
-          <Route path="/user" element={<User/>}/>
-          <Route path="*" element={<Error/>}/> */}
+          <Route path="/about" element={<About/>}/>
+          <Route path="/portfolio" element={<Portfolio/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="*" element={<Error/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
