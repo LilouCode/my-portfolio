@@ -1,6 +1,6 @@
 @keyframes shadow-smooth {
     0%{
-        box-shadow: $color--cta 0px 10px 100px 0px;
+        box-shadow: $color--soft 0px 10px 100px 0px;
     }
     100%{
         box-shadow: $color--primary 0px 0px 0px 0px;
@@ -9,9 +9,25 @@
 
 @keyframes background-smooth--btn {
     0%{
-        background-color: $color--cta;
+        background-color: $color--soft;
     }
     100%{
         background-color: transparent;
     }
 }
+
+@keyframes flip-in-ver-right {
+    0% {
+      transform: rotateY(-80deg);
+      opacity: 0;
+    }
+    50%{
+        transform: rotateY(0);
+    }
+    80%{
+        opacity: 90%;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

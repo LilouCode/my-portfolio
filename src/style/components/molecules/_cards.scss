@@ -1,0 +1,77 @@
+.cardProjects{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 3%;
+    background-color: $color--primary;
+    border-radius: 20px;
+    position: relative;
+    height: 332px;
+    text-decoration: none;
+    box-shadow: $color--grey 2px 2px 14px 2px;
+    &:hover &__verso{
+        display: flex;
+    }
+    &:hover .icon{
+        animation: shadow-smooth 2s ease-in-out 0.3s infinite alternate-reverse both;
+    }
+    &__cover{
+        & img{
+            height: 180px;
+            width: 300px;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+    }
+    &__description{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: $color--grey;
+        padding: 0 5%;
+        & h2{
+            margin-bottom: 0;
+        }
+    }
+    &__verso{
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: $color--transparent;
+        top: 0;
+        left: 0;
+        height: 332px;
+        width: 300px;
+        border-radius: 20px;
+        z-index: 2;
+        animation: flip-in-ver-right 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    &__cta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 12%;
+    }
+}
+.tasks{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 42%;
+    padding-left: 7%;
+    width: 80%;
+    border-top: solid 0.7px $color--shine;
+    &__list{
+        color: $color--grey;
+        font-size: 12px;
+        margin: 0;
+        padding: 0%;
+    }
+    &__task{
+        color: $color--grey;
+    }
+}

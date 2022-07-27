@@ -1,9 +1,11 @@
 //colors
 $color--primary:#0F1014;
-$color-secondary:#eef3eb;
-$color--third:#E2D7F8;
-$color--cta:#DCEDC8;
-$color--soft: #BBBBBB;
+$color--secondary:#BE3E82;
+$color--cta:#E43F6F;
+$color--soft: #DCEDC8;
+$color--grey:#BBBBBB;
+$color--transparent: hsl(228, 14%, 7%, 99%);
+$color--shine: hsl(88, 51%, 86%, 10%);
 //fonts
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 $familyheader: 'DM Serif Display', serif;

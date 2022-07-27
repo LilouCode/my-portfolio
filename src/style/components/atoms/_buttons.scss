@@ -7,11 +7,11 @@ button{
 }
 .btn{
     &--nav{
-        color: $color-secondary;
+        color: $color--cta;
         text-decoration: none;
         padding: 0 9% 0 0;
         &:hover{
-            color: $color--cta;
+            color: $color--secondary;
         }
         &--active{
             color: darkgray;

@@ -6,8 +6,15 @@
 @import './base/base';
 @import './base/typography';
 @import './components/atoms/buttons';
+@import './components/atoms/icons';
+@import './components/atoms/loaders';
+@import './components/molecules/cards';
 @import './components/molecules/nav';
+@import './components/pages/about';
+@import './components/pages/contact';
 @import './components/pages/home';
+@import'./components/pages/portfolio';
+@import './components/organisms/grids.scss';
 @import './components/organisms/headers';
 @import './components/organisms/footers';
 @import './components/templates/page';

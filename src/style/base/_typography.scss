@@ -14,13 +14,14 @@ h1{
 }
 h2{
     font-family: $familyheader;
-    color: $color--soft;
+    color: $color--cta;
 }
 .h2--landing{
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 10%;
     letter-spacing: .1em;
+    color: $color--primary;
 }
 .h2--header{
     margin: 0;
@@ -30,18 +31,28 @@ h3{
     font-size: 15px;
     font-weight: $regular;
     text-transform: uppercase;
+    color: $color--secondary;
+}
+.h3--cta{
+    font-size: 20px;
+    font-family: $familyheader;
+    color: $color--cta;
 }
 .h3--landing{
     letter-spacing: .2rem;
     margin-bottom: 3%;
 }
+h5{
+    color: $color--secondary;
+    margin: 2% 0;
+}
 h6{
     margin: 0%;
-    color: $color--soft;
+    color: $color--grey;
     font-size: 10px;
 }
 span{
-    color: $color--soft;
+    color: $color--primary;
 }
 
 button{

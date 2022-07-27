@@ -29,7 +29,11 @@
         margin: auto;
         &__img{
             width: 400px;
-            animation: shadow-smooth 7s ease-in-out 1s infinite alternate-reverse both;
+            animation: shadow-smooth 7s ease-in-out 0s infinite alternate-reverse both;
+            &:hover{
+                animation: none;
+                box-shadow: $color--cta 0px 10px 100px 0px;
+            }
         }
     }
 }
