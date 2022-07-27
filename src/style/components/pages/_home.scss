@@ -1,0 +1,40 @@
+.home{
+    display: flex;
+    min-height: 100vh;
+    &__main{
+        display: flex;
+        width: 100vw;
+    }
+    .header__landing{
+        width: 60%;
+        top: 0px;
+        bottom: 0px;
+        padding:auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 5%;
+    }
+    &__visual{
+        flex: 1;
+        display: flex;
+        justify-items: center;
+        background-color: $color--primary;
+    }
+    &__link{
+        display: flex;
+        justify-self: center;
+        justify-content:center ;
+        align-self: center;
+        left: 5%;
+        right: 5%;
+        margin: auto;
+        &__img{
+            width: 400px;
+            animation: shadow-smooth 7s ease-in-out 1s infinite alternate-reverse both;
+        }
+    }
+}
+.header__landing{
+    flex: 2%;
+}

@@ -1,0 +1,40 @@
+body{
+    font-family: $familynormal;
+    color: $color--primary;
+}
+h1{
+    font-family: $familyheader;
+}
+.h1--landing{
+    font-size: 100px;
+    margin-top: 4%;
+    margin-bottom: 1.5%;
+    line-height: 1;
+    letter-spacing: .1em ;
+}
+h2{
+    font-family: $familyheader;
+    color: $color--soft;
+}
+.h2--landing{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10%;
+    letter-spacing: .1em;
+}
+h3{
+    font-size: 15px;
+    font-weight: $regular;
+    text-transform: uppercase;
+}
+.h3--landing{
+    letter-spacing: .2rem
+}
+span{
+    color: $color--soft;
+}
+
+button{
+    font-family: $familynormal;
+    text-transform: uppercase;
+}

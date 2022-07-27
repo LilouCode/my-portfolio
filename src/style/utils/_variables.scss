@@ -1,0 +1,18 @@
+//colors
+$color--primary:#0F1014;
+$color-secondary:#EFDBDB;
+$color--third:#E2D7F8;
+$color--cta:#DCEDC8;
+$color--soft: #BBBBBB;
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+$familyheader: 'DM Serif Display', serif;
+$familynormal: 'Montserrat', sans-serif;
+$thin: 100;
+$extraLight: 200;
+$light: 300;
+$regular: 400; //notice: only weight for Header family
+$medium:500;
+$semiBold: 600;
+//shadows
+$shadow--cta: $color--cta 0px 10px 100px 0px;

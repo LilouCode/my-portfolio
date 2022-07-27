@@ -1,0 +1,21 @@
+button{
+    border-radius: 10px;
+    padding: 1% 2%;
+    margin: 1%;
+    color: $color--primary;
+    cursor: pointer;
+}
+.btn{
+    &--ghost{
+        background-color: transparent;
+        width: 150px;
+        margin-left: 2%;
+        font-weight: $medium;
+        border: transparent;
+        border-radius: 0;
+        border-bottom: solid $color--soft 2px;
+        &:hover{
+            animation: shadow-smooth 2s ease-in-out 0s 1 reverse both;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@keyframes shadow-smooth {
+    0%{
+        box-shadow: $color--cta 0px 10px 100px 0px;
+    }
+    100%{
+        box-shadow: $color--primary 0px 0px 0px 0px;
+    }
+}
+
+@keyframes background-smooth--btn {
+    0%{
+        background-color: $color--cta;
+    }
+    100%{
+        background-color: transparent;
+    }
+}
