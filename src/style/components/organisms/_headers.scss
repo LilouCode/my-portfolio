@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: $color--primary;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    &__title{
+        display: flex;
+    }
+    &__logo{
+        // position: absolute;
+        // left: 0px;
+        // top: 0.5%;
+        height: 40px;
+    }
+}

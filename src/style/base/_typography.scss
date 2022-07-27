@@ -22,13 +22,23 @@ h2{
     margin-bottom: 10%;
     letter-spacing: .1em;
 }
+.h2--header{
+    margin: 0;
+    font-size: 20px;
+}
 h3{
     font-size: 15px;
     font-weight: $regular;
     text-transform: uppercase;
 }
 .h3--landing{
-    letter-spacing: .2rem
+    letter-spacing: .2rem;
+    margin-bottom: 3%;
+}
+h6{
+    margin: 0%;
+    color: $color--soft;
+    font-size: 10px;
 }
 span{
     color: $color--soft;

@@ -6,6 +6,20 @@ button{
     cursor: pointer;
 }
 .btn{
+    &--nav{
+        color: $color-secondary;
+        text-decoration: none;
+        padding: 0 9% 0 0;
+        &:hover{
+            color: $color--cta;
+        }
+        &--active{
+            color: darkgray;
+            &:hover{
+                color: darkgray;
+            }
+        }
+    }
     &--ghost{
         background-color: transparent;
         width: 150px;
