@@ -59,6 +59,22 @@ const portfolio = [
         source: 'gitHub',
     },
     {
+        id:1,
+        title: 'Nathalie Da Costa',
+        url: 'https://www.nathaliepsychogenealogie.com',
+        descrition: "Web design",
+        toDo:
+        [
+            "Create and Publish a Website with Wix",
+            "Carry out a project using an agile methodology",
+            "Create the layout and design for a client",
+            "Create a brand identity",
+            "Identify application needs and write specifications",
+          ],
+        picture: './projects/id81.png',
+        source: 'web',
+    },
+    {
         id:9,
         title: 'Billed',
         url: 'https://github.com/LilouCode/LisaLox_9_29032022',
@@ -112,7 +128,7 @@ const portfolio = [
         'Produce technical documentation for an application',]
         ,
         picture: './projects/id12.png',
-        source: 'gitHub',
+        source: 'gitHub'
     },
     {
         id:13,
@@ -128,6 +144,38 @@ const portfolio = [
         ]   
         ,
         source: 'gitHub',
+    },
+    {
+        id:8,
+        title: 'Luiggi Coiffeur',
+        url: 'https://www.luiggicoiffeur.com',
+        descrition: "Web design",
+        toDo:
+        [
+            "Create and Publish a Website with Wix",
+            "Carry out a project using an agile methodology",
+            "Create the layout and design for a client",
+            "Create a brand identity",
+            "Identify application needs and write specifications",
+          ],
+        picture: './projects/id15.png',
+        source: 'web',
+    },
+    {
+        id:16,
+        title: 'Arce',
+        url: 'https://www.arcepf.com',
+        descrition: "Web design",
+        toDo:
+        [
+            "Create and Publish a Website with Wix",
+            "Carry out a project using an agile methodology",
+            "Create the layout and design for a client",
+            "Create a brand identity",
+            "Identify application needs and write specifications",
+          ],
+        picture: './projects/id16.png',
+        source: 'web',
     },
 ]
 export default portfolio;
