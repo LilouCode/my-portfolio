@@ -1,8 +1,15 @@
-.about{
+.about {
+  display: flex;
+  padding: 5% 9%;
+  justify-content: space-between;
+  &__main {
     display: flex;
-    padding: 5% 9%;
-    justify-content: space-between;
-    &__img{
-        height: 448px;
-    }
+    flex-direction: column;
+    width: 49%;
+    text-align: justify;
+  }
+  &__img {
+    height: 448px;
+    object-fit: cover;
+  }
 }

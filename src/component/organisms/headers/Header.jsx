@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { NavPages } from "../../molecules/Nav/NavPages";
 import LogoGitHub from "../../../assets/images/LogoGitHub.png";
 export const Header = () => {
@@ -9,13 +8,13 @@ export const Header = () => {
         <h6>Frontend Developer {"&"} Web Designer</h6>
       </div>
       <NavPages />
-      <Link to="./">
+      <a href={'https://github.com/LilouCode'}>
           <img
             className="header__logo"
             src={LogoGitHub}
             alt="Visit my GitHub profile"
           />
-        </Link>
+        </a>
     </div>
   );
 };

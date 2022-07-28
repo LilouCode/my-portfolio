@@ -36,6 +36,12 @@
             }
         }
     }
+    &__contact{
+        display: flex;
+        position: absolute;
+        top: 2%;
+        right: 2%;
+    }
 }
 .header__landing{
     flex: 2%;
