@@ -8,6 +8,7 @@ export const CardProjects = ({
   icon,
   iconAlt,
   tasks,
+  cta,
 }) => {
   return (
     <a href={url} className="cardProjects">
@@ -22,7 +23,7 @@ export const CardProjects = ({
         <div className="cardProjects__verso">
           <div className="cardProjects__cta">
           <Icon icon={icon} alt={iconAlt} />
-          <h3 className="h3--cta">See source project</h3>
+          <h3 className="h3--cta">{cta}</h3>
           </div>
           {tasks ? (
             <div className="tasks">
