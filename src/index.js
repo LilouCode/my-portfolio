@@ -8,7 +8,6 @@ import { Home } from "./component/pages/Home";
 import {Error} from "./component/pages/Error";
 import {About} from "./component/pages/About";
 import {Portfolio} from "./component/pages/Portfolio";
-import {Contact} from "./component/pages/Contact"
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -21,7 +20,6 @@ root.render(
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/portfolio" element={<Portfolio/>}/>
-          <Route path="/contact" element={<Contact/>}/>
           <Route path="*" element={<Error/>}/>
         </Route>
       </Routes>
