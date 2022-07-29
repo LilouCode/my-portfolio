@@ -3,6 +3,12 @@
         display: flex;
         justify-content: space-between;
         width: 40%;
+        @include tablette-only{
+            width: 80%;
+        }
+        @include under-small{
+            width: 100%;
+        }
     }
     &--landing{
         display: flex;

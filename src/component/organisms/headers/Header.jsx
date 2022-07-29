@@ -8,7 +8,7 @@ export const Header = () => {
         <h6>Frontend Developer {"&"} Web Designer</h6>
       </div>
       <NavPages />
-      <a href={'https://github.com/LilouCode'}>
+      <a className="header__link" href={'https://github.com/LilouCode'}>
           <img
             className="header__logo"
             src={LogoGitHub}

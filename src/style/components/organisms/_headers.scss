@@ -9,10 +9,35 @@
     left: 0;
     right: 0;
     border-bottom: solid 0.1px;
-    &__titles{
-        // display: flex;
+   
+    @include under-small{
+        flex-direction: column;
+        height: 80px;
+    }
+    &__link{
+        @include tablette-only{
+            position: absolute;
+        right: 2%;
+        top: 95px;
+        }
         @include under-small{
-            display: none;
+            top: 115px;
+        }
+    }
+    &__titles{
+        @include tablette-only{
+            & h6{
+                display: none;
+            }
+        }
+        @include under-small{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3% 0;
+            & h6{
+                display: flex;
+            }
         }
     }
     &__logo{
