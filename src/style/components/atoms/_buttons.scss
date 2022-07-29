@@ -32,5 +32,8 @@ button{
         &:hover{
             animation: shadow-smooth 2s ease-in-out 0s 1 reverse both;
         }
+        @include tablette-only{
+            width: 100px;
+        }
     }
 }

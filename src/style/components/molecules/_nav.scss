@@ -11,5 +11,12 @@
         @include laptop{
             flex-direction: column;
         }
+        @include tablette-only{
+            flex-direction: row;
+        }
+        @include under-small{
+            flex-direction: column;
+            height: 150px;
+        }
     }
 }

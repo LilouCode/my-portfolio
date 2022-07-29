@@ -9,13 +9,30 @@
     left: 0;
     right: 0;
     border-bottom: solid 0.1px;
-    &__title{
-        display: flex;
+    &__titles{
+        // display: flex;
+        @include under-small{
+            display: none;
+        }
     }
     &__logo{
-        // position: absolute;
-        // left: 0px;
-        // top: 0.5%;
         height: 40px;
+        // @include under-small{
+        //     position: absolute;
+        // right: 1%;
+        // top: 75px;
+        // }
+    }
+}
+.header__landing{
+    width: 60%;
+    padding:auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5% 0% 5% 5%;
+    @include tablette-only{
+        width: 95%;
+        padding-top: 14%;
     }
 }
