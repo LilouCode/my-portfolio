@@ -1,10 +1,16 @@
 .home{
     display: flex;
     min-height: 100vh;
-    background-color: $color--primary;
+    // background-color: $color--primary;
+    background-image: url('../../../assets/back.svg');
+    animation: galaxy 30s ease-out infinite alternate-reverse both;
+    @include under-small{
+        animation: galaxy-small 30s ease-out infinite alternate-reverse both;
+    }
     &__main{
         display: flex;
         width: 100vw;
+        background-color: hsl(0, 0%, 0%, 70%);
         @include tablette-only{
             flex-direction: column;
         }
@@ -14,7 +20,8 @@
         flex: 1;
         display: flex;
         justify-items: center;
-        background-color: $color--primary;
+        // background-color: $color--primary;
+        background-color: hsl(0, 0%, 0%, 0%);
     }
     &__link{
         display: flex;
@@ -26,7 +33,7 @@
         margin: auto;
         &__img{
             width: 80%;
-            animation: shadow-smooth 7s ease-in-out 0s infinite alternate-reverse both;
+            animation: shadow-smooth 7s ease-in-out 0s infinite alternate both;
             &:hover{
                 animation: none;
                 box-shadow: $color--cta 0px 10px 100px 0px;
