@@ -6,6 +6,9 @@
     align-items: center;
     padding-left: 3%;
     padding-right: 3%;
+    left: 0;
+    right: 0;
+    border-bottom: solid 0.1px;
     &__title{
         display: flex;
     }

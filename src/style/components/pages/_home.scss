@@ -1,6 +1,7 @@
 .home{
     display: flex;
     min-height: 100vh;
+    background-color: $color--primary;
     &__main{
         display: flex;
         width: 100vw;
@@ -28,7 +29,7 @@
         right: 5%;
         margin: auto;
         &__img{
-            width: 400px;
+            width: 80%;
             animation: shadow-smooth 7s ease-in-out 0s infinite alternate-reverse both;
             &:hover{
                 animation: none;

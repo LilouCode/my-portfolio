@@ -2,14 +2,36 @@
   display: flex;
   padding: 5% 9%;
   justify-content: space-between;
+  height: 90vh;
+  @include laptop{
+    flex-direction: column;
+    width: 100%;
+    padding: 1% 0 0 3%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   &__main {
     display: flex;
     flex-direction: column;
     width: 49%;
     text-align: justify;
+    @include laptop{
+      width: 80%;
+    }
+  }
+  &__asside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   &__img {
-    height: 448px;
+    width: 30%;
     object-fit: cover;
+    position: absolute;
+    right: 3%;
+    
+    @include laptop{
+      position: relative;
+    }
   }
 }

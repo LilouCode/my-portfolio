@@ -4,4 +4,12 @@
         justify-content: space-between;
         width: 40%;
     }
+    &--landing{
+        display: flex;
+        justify-content: space-evenly;
+        // width: 200px;
+        @include laptop{
+            flex-direction: column;
+        }
+    }
 }
