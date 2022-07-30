@@ -24,7 +24,7 @@
     }
     &__titles{
         & img{
-            animation: rotate-center 10s ease-in 5s both;
+            animation: rotate-center 10s ease-in 1s infinite both;
         }
     }
     &__logo{
@@ -45,6 +45,9 @@
     padding: 5% 0% 5% 5%;
     @include tablette-only{
         width: 95%;
+        padding-top: 8%;
+    }
+    @include under-small{
         padding-top: 14%;
     }
 }

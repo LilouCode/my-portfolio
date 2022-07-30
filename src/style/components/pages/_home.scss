@@ -40,6 +40,7 @@
             }
             @include tablette-only{
                 width: 50%;
+                margin-bottom: 3%;
             }
         }
     }
@@ -56,9 +57,12 @@
         }
     }
     &--footer{
-        position: absolute;
-        bottom: 1%;
-        right: 2%;
+       padding-right: 3%;
+       align-self: flex-end;
+        @include tablette-only{
+            margin-top: 20px;
+            font-size: 8px;
+        }
     }
 }
 .header__landing{

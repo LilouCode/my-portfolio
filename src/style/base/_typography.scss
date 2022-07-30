@@ -19,6 +19,7 @@ h1{
     @include tablette-only{
         font-size: 50px;
         margin-bottom: 0;
+        margin-top: 2%;
     }
 }
 h2{
@@ -33,6 +34,9 @@ h2{
     color: white;
     @include laptop{
         font-size: 30px;
+    }
+    @include under-small{
+        margin-bottom: 5%;
     }
 }
 .h2--header{

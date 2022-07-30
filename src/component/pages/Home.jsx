@@ -14,8 +14,9 @@ export const Home = () => {
           <img className="home__link__img" src={GithubQR} alt="Visit my GitHub profile" />
         </a>
       </div>
+      {/* <h6 className="home--footer">Lisa Lox - Frontend developer {'&'} Web designer. All rights reserved © 2022</h6> */}
       </div>
-      <h6 className="home--footer">Lisa Lox - Frontend developer {'&'} Web designer. All rights reserved © 2022</h6>
+      
     </div>
   );
 };

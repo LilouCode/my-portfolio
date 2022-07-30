@@ -1,6 +1,7 @@
 const contact = 
     {
-        Name: "Lisa Lox",
+        FirstName: "Lox",
+        LastName: "Lisa",
         Email: "lisa.frontdev@gmail.com",
         Github:"https://github.com/LilouCode",
         Place: "remote",
