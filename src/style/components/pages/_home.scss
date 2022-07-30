@@ -57,8 +57,9 @@
         }
     }
     &--footer{
-       padding-right: 3%;
-       align-self: flex-end;
+       position: absolute;
+       right: 3%;
+       bottom: 10px;
         @include tablette-only{
             display: none;
         }
