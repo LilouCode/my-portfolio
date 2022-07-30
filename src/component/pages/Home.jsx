@@ -15,6 +15,7 @@ export const Home = () => {
         </a>
       </div>
       </div>
+      <h6 className="home--footer">Lisa Lox - Frontend developer {'&'} Web designer. All rights reserved © 2022</h6>
     </div>
   );
 };

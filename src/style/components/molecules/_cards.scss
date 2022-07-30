@@ -9,6 +9,9 @@
     height: 332px;
     text-decoration: none;
     box-shadow: $color--grey 2px 2px 14px 2px;
+    @include tablette-only{
+        margin-top: 10%;
+    }
     &:hover &__verso{
         display: flex;
     }

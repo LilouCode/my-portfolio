@@ -4,11 +4,12 @@
         justify-content: space-between;
         width: 40%;
         @include tablette-only{
-            width: 80%;
+            // width: 80%;
+            display: none;
         }
-        @include under-small{
-            width: 100%;
-        }
+        // @include under-small{
+        //     width: 100%;
+        // }
     }
     &--landing{
         display: flex;
@@ -24,5 +25,29 @@
             flex-direction: column;
             height: 150px;
         }
+    }
+    &--burger{
+        display: none;
+        @include tablette-only{
+            display: block;
+        }
+    }
+}
+.burger--open{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 9%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+    background-color: $color--primary;
+    & img{
+        position: absolute;
+        right: 9%;
+        top: 9%;
     }
 }

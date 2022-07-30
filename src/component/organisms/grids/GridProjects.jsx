@@ -29,7 +29,7 @@ export const GridProjects = () => {
           cta={
             project.source === "web"
               ? "Visit the website"
-              : "See the source project"
+              : "View project"
           }
         />
       ))}

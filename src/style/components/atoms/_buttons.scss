@@ -1,42 +1,90 @@
-button{
-    border-radius: 10px;
-    padding: 1% 2%;
-    margin: 1%;
-    color: $color--primary;
-    cursor: pointer;
+button {
+  border-radius: 10px;
+  padding: 1% 2%;
+  color: $color--primary;
+  cursor: pointer;
 }
-.btn{
-    &--nav{
-        color: $color--cta;
-        text-decoration: none;
-        padding: 0 9% 0 0;
-        &:hover{
-            color: $color--secondary;
-        }
-        @include tablette-only{
-            font-size: 16px;
-        }
-        &--active{
-            color: darkgray;
-            &:hover{
-                color: darkgray;
-            }
-        }
+.btn {
+  &--nav {
+    color: $color--soft;
+    text-decoration: none;
+    padding: 0 9% 0 0;
+    &:hover {
+      color: $color--secondary;
     }
-    &--ghost{
-        background-color: transparent;
-        color: $color--grey;
-        width: 150px;
-        margin-left: 2%;
-        font-weight: $medium;
-        border: transparent;
-        border-radius: 0;
-        border-bottom: solid $color--soft 2px;
-        &:hover{
-            animation: shadow-smooth 2s ease-in-out 0s 1 reverse both;
-        }
-        @include tablette-only{
-            width: 100px;
-        }
+    @include tablette-only {
+      font-size: 16px;
     }
+    &--active {
+      color: $color--active;
+      &:hover {
+        color: $color--active;
+      }
+    }
+  }
+  &--ghost {
+    background-color: transparent;
+    color: $color--grey;
+    width: 150px;
+    margin-left: 2%;
+    font-weight: $medium;
+    border: transparent;
+    border-radius: 0;
+    border-bottom: solid $color--soft 2px;
+    &:hover {
+      animation: shadow-smooth 2s ease-in-out 0s 1 reverse both;
+    }
+    @include tablette-only {
+      width: 100px;
+    }
+  }
+  &--cta {
+    background-color: transparent;
+    text-align: center;
+    border-radius: 0%;
+    border: none;
+    border-bottom: solid 0.5px $color--secondary;
+    text-transform: none;
+    font-size: 16px;
+    color: $color--cta;
+    text-decoration: none;
+    padding: 0 ;
+    width: 160px;
+    font-weight: $semiBold;
+    &:hover {
+      color: $color--secondary;
+    }
+    @include tablette-only {
+      font-size: 16px;
+      margin-top: 9%;
+      text-align: start;
+      letter-spacing: .3em ;
+    }
+  }
+  &--mobile {
+    display: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    background-color: $color--cta;
+ 
+    @include tablette-only {
+      display: block;
+    }
+  }
+  &--burger{
+    background-color: transparent;
+    text-decoration: none;
+    color: $color--soft;
+    border: transparent;
+    width: 200px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    letter-spacing: .3em ;
+    font-size: 18px;
+    text-align: start;
+    &--active{
+      color: $color--grey;
+    }
+  }
 }
