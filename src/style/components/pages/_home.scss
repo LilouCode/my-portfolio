@@ -60,8 +60,7 @@
        padding-right: 3%;
        align-self: flex-end;
         @include tablette-only{
-            margin-top: 20px;
-            font-size: 8px;
+            display: none;
         }
     }
 }
