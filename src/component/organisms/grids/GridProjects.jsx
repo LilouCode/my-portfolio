@@ -25,6 +25,7 @@ export const GridProjects = () => {
           description={project.descrition}
           id={project.id}
           icon={icons[project.source]}
+          iconAlt={"link to the url: "+project.url}
           tasks={project.toDo ? project.toDo : null}
           cta={
             project.source === "web"

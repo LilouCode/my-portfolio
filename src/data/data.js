@@ -20,7 +20,7 @@ const portfolio = [
             'Ensure the graphic consistency of a website',
             'Implement advanced graphical CSS effects',
         'Use a version control system for project tracking and hosting'], 
-        picture: './projects/id3.jpg',
+        picture: './projects/id3.png',
         source: 'gitHub',
 
     },
