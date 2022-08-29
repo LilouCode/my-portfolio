@@ -81,7 +81,7 @@ const portfolio = [
     toDo: [
       "Write unit tests with JavaScript",
       "Debug a web application with the Chrome Debugger",
-      "Rédiger un plan de test end-to-end manuel",
+      "Write an end-to-end manual test plan",
       "Write integration tests with JavaScript",
     ],
     picture: "./projects/id9.png",
