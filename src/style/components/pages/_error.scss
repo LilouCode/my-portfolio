@@ -1,0 +1,32 @@
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4%;
+    &__body{
+        margin-top: 4%;
+        margin-bottom: 4%;
+        &__description{
+            margin-bottom: 10%;
+        }
+    }
+    img{
+        width: 500px;
+        height: 500px;
+        @include laptop{
+            width: 400px;
+            height: 400px;
+        }
+        @include tablette-only{
+            width: 350px;
+            height: 350px;
+        }
+        @include under-small{
+            width: 200px;
+            height: 200px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+    }
+}
