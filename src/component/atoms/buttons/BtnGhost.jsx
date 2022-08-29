@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 export const BtnGhost = ({content = "button", link, mailto}) => {
+    console.log(content.length)
     return(
         <Link to={link} onClick={mailto? (
             (e) =>{
@@ -8,7 +9,7 @@ export const BtnGhost = ({content = "button", link, mailto}) => {
                 e.preventDefault();
             }
         ): null}>
-            <button className="btn btn--ghost">{content}</button>
+            <button className={(content.length < 10? "btn btn--ghost": "btn btn--ghost btn--xxl")}>{content}</button>
         </Link>
     )
 }

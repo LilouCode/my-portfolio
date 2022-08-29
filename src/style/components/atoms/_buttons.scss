@@ -21,6 +21,9 @@ button {
         color: $color--active;
       }
     }
+    &--xxl{
+      width: 150px;
+    }
   }
   &--ghost {
     background-color: transparent;
