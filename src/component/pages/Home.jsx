@@ -1,9 +1,14 @@
+import {useSource} from '../../utils/hooks';
 import { HeaderLanding } from "../organisms/headers/HeaderLanding";
+import { Loader } from "../organisms/Loader";
 import GithubQR from "../../assets/images/GithubQR.png";
 import { GridContact } from "../organisms/grids/GridContact";
 export const Home = () => {
+const {loading, showContent} = useSource()
+  showContent()
   return (
-    <div className="home">
+    (loading? (<Loader/>): (
+      <div className="home">
       <div className="home__main">
       <HeaderLanding />
       <div className="home__contact">
@@ -18,5 +23,6 @@ export const Home = () => {
       </div>
       
     </div>
+    ) )
   );
 };

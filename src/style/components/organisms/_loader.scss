@@ -1,0 +1,24 @@
+.loader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    h1{
+        font-size: 60px;
+        -webkit-animation: loader 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2 0.5s alternate both;
+	        animation: loader 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2 0.5s alternate both;
+    }
+    &__rocket{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    span{
+        align-self: flex-end;
+        animation: none;
+        font-size: 40px;
+        -webkit-animation: rocket 3s cubic-bezier(0.755, 0.050, 0.855, 0.060) 4.2s both;
+	        animation: rocket 3s cubic-bezier(0.755, 0.050, 0.855, 0.060) 4.2s both;
+    }
+}

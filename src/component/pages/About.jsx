@@ -4,8 +4,9 @@ export const About = () => {
   return (
     <Page
       chilidren={
+        <>
         <div className="about">
-          <div className="about__main">
+          <div className="about__header">
             <h1>About me</h1>
             <p>
               After several years of webdesign, I decided to push the limits of
@@ -34,6 +35,10 @@ export const About = () => {
             <img className="about__img" src={Me} alt="Lisa Lox" />
           </div>
         </div>
+        <div className="about__section">
+          <div></div>
+        </div>
+        </>
       }
     />
   );
