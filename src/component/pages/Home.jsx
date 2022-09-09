@@ -19,7 +19,7 @@ const {loading, showContent} = useSource()
           <img className="home__link__img" src={GithubQR} alt="Visit my GitHub profile" />
         </a>
       </div>
-      <h6 className="home--footer">Lisa Lox - Frontend developer {'&'} UX/UI designer. All rights reserved © 2022. Made by Lisa Lox with React and ❤️ !</h6>
+      <h6 className="home--footer">Made by Lisa Lox with ❤️ - All rights reserved © 2022</h6>
       </div>
       
     </div>
