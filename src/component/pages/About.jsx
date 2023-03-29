@@ -5,39 +5,67 @@ export const About = () => {
     <Page
       chilidren={
         <>
-        <div className="about">
-          <div className="about__header">
-            <h1>About me</h1>
-            <p>
-              After several years of webdesign, I decided to push the limits of
-              my skills by becoming Frontend developer. I always try to be one
-              step ahead of what can be done .
-            </p>
-            <p>
-            Since my childhood I have always
-              liked to handle the computer, just like the will to go always
-              further in the infinity of data processing. I was the geek who
-              always gave advice to his classmates until the day the teacher
-              found all the computer screens in the room displaying kitsch
-              animated texts (well, I was nine years old).
-            </p>
-            <p>
-              Having become my
-              passion, IT has always been part of my choices for the future,
-              whether in design or programming. For me, a good developer is
-              someone who values the quality of teamwork, understands the needs
-              of the business, always appreciates constructive feedback, is a
-              productive perfectionist, is curious and is never satisfied with
-              what he has learned.
-            </p>
+          <div className="about">
+            <div className="about__main">
+              <h1>About me 👩‍🚀</h1>
+              <p>I'm Lisa, I'm a Frontend developer and a designer.</p>
+              <p>
+                I like to say that I stay sharp because it’s the only way to
+                bring the bests digitals solution for technical debt, increased
+                performance, and in the end, work for a sustained future. I see
+                my work as the challenge always to create the cleanest code as
+                it can be made, choose the better tool to reduce its carbon
+                footprint, and contribute in another way to build a better world
+                for the technology. This is why Next.js and React.js are two of
+                my favorites framework (for now). They bring closer two of my
+                biggest dreams: create stunning user experiences and build a
+                super light code. Having the possibility to be bold with
+                creativity without fearing the consequences of a bad Lighthouse
+                report, is a game changer for every hybrid designer/developer
+                like me but also for any tech company that shares the same
+                values.
+              </p>
+              <p>
+                Speaking of which, I believe that values are what bring people
+                together. The past years have shown me that every project is
+                only possible if each collaborator believes in it. I have a
+                strong team spirit even if I enjoy working on my own (Capricorn
+                here). For starting, I learned the value to document my code and
+                make my work more understandable to others, including myself
+                after 4 months after the last commit(learned that at my
+                depends). I love sharing my experience with my team or clients
+                and learning from others. I always encourage constructive
+                feedback. During my experience as a Product Designer, I've
+                learned that communication is the key to all our problems. You
+                can always have the best tool (have you seen my stack yet?), and
+                the perfect schedule, nothing compares to good communication. It
+                is everyone's responsibility to make sure that they contribute
+                to that dynamic.
+              </p>
+            </div>
+
+            <div className="about__asside">
+              <img src={Me} alt="Lisa Lox" />
+              <div>
+                <h2>Fun facts about me</h2>
+                <ul>
+                  <li>
+                    🚸 Had my first laptop at 5 years old (yes it was yellow)
+                  </li>
+                  <li>
+                    🌴 Lived in several Caribbean islands
+                  </li>
+                  <li>🎹 Performed music on stage</li>
+                  <li>⛵ Passion for sailing and climbing</li>
+                  <li>🌎 Vegan for saving water since 2017</li>
+                  <li>🏞️ Love to observe the nature</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div className="about__asside">
-            <img className="about__img" src={Me} alt="Lisa Lox" />
+          <div className="about__section">
+            <div></div>
           </div>
-        </div>
-        <div className="about__section">
-          <div></div>
-        </div>
         </>
       }
     />
