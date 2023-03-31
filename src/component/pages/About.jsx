@@ -33,7 +33,7 @@ export const About = () => {
                 here). For starting, I learned the value to document my code and
                 make my work more understandable to others, including myself
                 after 4 months after the last commit(learned that at my
-                depends). I love sharing my experience with my team or clients
+                expense). I love sharing my experience with my team or clients
                 and learning from others. I always encourage constructive
                 feedback. During my experience as a Product Designer, I've
                 learned that communication is the key to all our problems. You
@@ -52,9 +52,7 @@ export const About = () => {
                   <li>
                     🚸 Had my first laptop at 5 years old (yes it was yellow)
                   </li>
-                  <li>
-                    🌴 Lived in several Caribbean islands
-                  </li>
+                  <li>🌴 Lived in several Caribbean islands</li>
                   <li>🎹 Performed music on stage</li>
                   <li>⛵ Passion for sailing and climbing</li>
                   <li>🌎 Vegan for saving water since 2017</li>

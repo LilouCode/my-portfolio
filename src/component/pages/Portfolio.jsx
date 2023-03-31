@@ -6,7 +6,7 @@ export const Portfolio = () =>{
             <div className="portfolio">
           <div className="portfolio__main">
             <div>
-            <h1>Portfolio</h1>
+            <h1>Portfolio 🔭</h1>
             <p>
             Here is a selection of projects that have enriched my knowledge
             </p>
