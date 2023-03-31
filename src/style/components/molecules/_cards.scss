@@ -1,16 +1,20 @@
 .cardProjects{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 340px;
     margin: 3%;
     background-color: $color--primary;
     border-radius: 20px;
     position: relative;
-    height: 332px;
+    height: 380px;
     text-decoration: none;
     box-shadow: $color--grey 2px 2px 14px 2px;
     @include tablette-only{
         margin-top: 10%;
+    }
+    @include under-small{
+        height: 400px;
+        width: 100%;
     }
     &:hover &__verso{
         display: flex;
@@ -20,8 +24,8 @@
     }
     &__cover{
         & img{
-            height: 180px;
-            width: 300px;
+            height: 200px;
+            width: 340px;
             object-fit: cover;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
@@ -33,6 +37,9 @@
         flex-wrap: wrap;
         color: $color--grey;
         padding: 0 5%;
+        & p{
+            font-size: 16px;
+        }
         & h2{
             margin-bottom: 0;
         }
@@ -46,11 +53,14 @@
         background-color: $color--transparent;
         top: 0;
         left: 0;
-        height: 332px;
-        width: 300px;
+        height: 380px;
+        width: 340px;
         border-radius: 20px;
         z-index: 2;
         animation: flip-in-ver-right 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        @include under-small{
+            height: 400px;
+        }
     }
     &__cta{
         display: flex;
@@ -70,9 +80,11 @@
     border-top: solid 0.7px $color--shine;
     &__list{
         color: $color--grey;
-        font-size: 12px;
         margin: 0;
         padding: 0%;
+        & li{
+            font-size: 14px;
+        }
     }
     &__task{
         color: $color--grey;
