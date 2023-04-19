@@ -2,6 +2,9 @@
     display: flex;
     padding: 5% 9%;
     justify-content: space-between;
+    @include under-small{
+        padding: 5% 2%;
+    }
     // &__main{
     // display: flex;
     // justify-content: space-between;

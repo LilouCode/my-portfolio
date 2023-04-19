@@ -11,9 +11,10 @@ $color--transparent: hsl(228, 14%, 7%, 99%);
 $color--shine: hsl(88, 51%, 86%, 10%);
 $color--cta--light: hsl(343, 75%, 57%, 70%);
 //fonts
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
-$familyheader: 'DM Serif Display', serif;
-$familynormal: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap');
+// $familyheader: 'DM Serif Display', serif;
+$familyheader:'Gloock', serif;
+$familynormal: 'Noto Sans', sans-serif;
 $thin: 100;
 $extraLight: 200;
 $light: 300;

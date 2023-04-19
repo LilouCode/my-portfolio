@@ -8,4 +8,8 @@
     left: 0;
     right: 0;
     height: 50px;
+    @include under-small{
+        padding: 2%;
+        text-align: center;
+    }
 }
