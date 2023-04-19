@@ -6,15 +6,19 @@
     width: 400px;
     & h4{
         margin-top: 0;
+        @include under-small{
+            font-size: 14px;
+        }
     }
     justify-content: space-between;
     @include tablette-only{
         width: 300px;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     @include under-small{
-        width: 100%;
+        width: 60%;
     }
     // & h4{
     //     color: $color--cta;
