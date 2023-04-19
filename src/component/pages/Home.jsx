@@ -15,7 +15,7 @@ const {loading, showContent} = useSource()
       <GridContact/>
       </div>
       <div className="home__visual">
-        <a className="home__link" href={'https://github.com/LilouCode'}>
+        <a className="home__link" href={'https://github.com/LilouCode'} target="_blank" rel="noopener noreferrer">
           <img className="home__link__img" src={GithubQR} alt="Visit my GitHub profile" />
         </a>
       </div>

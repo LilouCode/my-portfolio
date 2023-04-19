@@ -16,7 +16,7 @@ export const Header = () => {
       </div>
       <NavPages />
       <NavMobile/>
-      <a className="header__link" href={'https://github.com/LilouCode'}>
+      <a className="header__link" href={'https://github.com/LilouCode'} target="_blank" rel="noopener noreferrer">
           <img
             className="header__logo"
             src={LogoGitHub}

@@ -11,7 +11,7 @@ export const CardProjects = ({
   cta,
 }) => {
   return (
-    <a href={url} className="cardProjects">
+    <a href={url} className="cardProjects" target="_blank" rel="noopener noreferrer">
       <div id={id} className="cardProjects__recto">
         <div className="cardProjects__cover">
           <img src={picture} alt={name + " project"} />
