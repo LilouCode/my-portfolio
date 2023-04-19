@@ -1,21 +1,15 @@
 import { CardProjects } from "../../molecules/Cards/CardProjects";
-import portfolio from "../../../data/data";
 import Default from "../../../assets/images/Default.png";
-import Figma from "../../../assets/icons/Figma.svg";
-import GitHub from "../../../assets/icons/GitHub.svg";
-import Web from "../../../assets/icons/Web.svg";
+import { useSource } from "../../../utils/hooks";
+import { Filter } from "../Filter";
+import { icons } from "../../../utils/helpers";
 
 export const GridProjects = () => {
-  const data = portfolio.sort(function(a,b) {
-    return b.id - a.id
-  });
-  const icons = {
-    gitHub: GitHub,
-    Figma: Figma,
-    web: Web,
-  };
+  const {data} = useSource()
   return (
-    <div className="gridProjects">
+    <>
+      <Filter/>
+      <div className="gridProjects">
       {data.map((project) => (
         <CardProjects
           key={"card-project-id-" + project.id}
@@ -30,10 +24,12 @@ export const GridProjects = () => {
           cta={
             project.source === "web"
               ? "Visit the website"
-              : "View project"
+              : project.source === "gitHub" ? "View code" : "Go to Figma"
           }
         />
       ))}
     </div>
+    </>
   );
+    
 };
