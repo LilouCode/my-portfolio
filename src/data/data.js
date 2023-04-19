@@ -10,6 +10,7 @@ const portfolio = [
     ],
     picture: "./projects/id2.png",
     source: "gitHub",
+    filter:"dev"
   },
   {
     id: 3,
@@ -25,6 +26,7 @@ const portfolio = [
     ],
     picture: "./projects/id3.png",
     source: "gitHub",
+    filter:"dev"
   },
   {
     id: 4,
@@ -34,6 +36,7 @@ const portfolio = [
     toDo: ["Set up a navigation structure for a website"],
     picture: "./projects/id4.png",
     source: "gitHub",
+    filter:"dev"
   },
   {
     id: 6,
@@ -48,6 +51,7 @@ const portfolio = [
     ],
     picture: "./projects/id6.png",
     source: "gitHub",
+    filter:"dev"
   },
   {
     id: 7,
@@ -57,6 +61,7 @@ const portfolio = [
     toDo: ["Develop an algorithm to solve a problem"],
     picture: "./projects/id7.png",
     source: "gitHub",
+    filter:"dev"
   },
   {
     id: 1,
@@ -72,6 +77,7 @@ const portfolio = [
     ],
     picture: "./projects/id81.png",
     source: "web",
+    filter:"design"
   },
   {
     id: 9,
@@ -86,6 +92,7 @@ const portfolio = [
     ],
     picture: "./projects/id9.png",
     source: "gitHub",
+    filter:"dev"
   },
   {
     id: 10,
@@ -100,6 +107,7 @@ const portfolio = [
     ],
     picture: "./projects/id10.png",
     source: "Figma",
+    filter:"design"
   },
   {
     id: 11,
@@ -113,6 +121,7 @@ const portfolio = [
     ],
     source: "gitHub",
     picture: "./projects/id11.png",
+    filter:"dev"
   },
   {
     id: 12,
@@ -127,6 +136,7 @@ const portfolio = [
     ],
     picture: "./projects/id12.png",
     source: "gitHub",
+    filter:"both"
   },
   {
     id: 13,
@@ -140,6 +150,7 @@ const portfolio = [
       "Authenticate to an API",
     ],
     source: "gitHub",
+    filter:"dev"
   },
   {
     id: 14,
@@ -154,6 +165,7 @@ const portfolio = [
     ],
     picture: "./projects/id14.png",
     source: "gitHub",
+    filter:"both"
   },
   {
     id: 8,
@@ -169,6 +181,7 @@ const portfolio = [
     ],
     picture: "./projects/id15.png",
     source: "web",
+    filter:"design"
   },
   {
     id: 16,
@@ -184,6 +197,22 @@ const portfolio = [
     ],
     picture: "./projects/id16.png",
     source: "web",
+    filter:"design"
   },
+  {
+    id:17,
+    title: "Lisa Frontdev",
+    url:"https://github.com/LilouCode/my-portfolio",
+    descrition: "Design and development with React",
+    toDo: [
+      "Design process",
+      "Developing with React",
+      "Develop a low carbon app",
+      "Deploy on Netlify"
+    ],
+    source: "gitHub",
+    picture:"./projects/id17.png",
+    filter:"both"
+  }
 ];
 export default portfolio;
